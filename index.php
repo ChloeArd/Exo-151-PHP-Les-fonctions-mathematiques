@@ -5,6 +5,9 @@
  */
 $value = -8;
 // TODO Votre code ici.
+$abs = abs($value);
+
+echo "<p>$abs</p> <br>";
 
 
 /**
@@ -12,6 +15,8 @@ $value = -8;
  */
 $value = 5.64;
 // TODO Votre code ici.
+$ceil = ceil($value);
+echo "<p>$ceil</p><br>";
 
 
 /**
@@ -19,6 +24,8 @@ $value = 5.64;
  */
 $value = 5.34;
 // TODO Votre code ici.
+$floor = floor($value);
+echo "<p>$floor</p><br>";
 
 
 /**
@@ -27,6 +34,11 @@ $value = 5.34;
 $max = [5, 10, 12, 8, 7, 6, 54, 39, 76, 63, 84, 2, 21];
 $min = [5, 41, 65, 4, 3, 65, 2, 65, 74, 51, 23, 39, 42];
 // TODO Votre code ici.
+$arrayMax = max($max);
+echo "<p> Max : $arrayMax </p><br>";
+
+$arrayMin = min($min);
+echo "<p> Min : $arrayMin </p><br>";
 
 
 /**
@@ -34,13 +46,16 @@ $min = [5, 41, 65, 4, 3, 65, 2, 65, 74, 51, 23, 39, 42];
  */
 
 // TODO Votre code ici.
-
+$pi = pi() * 2;
+echo "<p> $pi </p><br>";
 
 /**
  * 6. Affichez dans un <p> la valeur arrondie de 5.42 avec la fonction round().
  */
 $value = 5.42;
 // TODO Votre code ici.
+$round = round($value);
+echo "<p> $round </p><br>";
 
 
 
